@@ -14,9 +14,13 @@ This repository hosts the source code for my personal website where I showcase m
 
 ## Features
 **Hero Section:** Includes a brief introduction and an interactable 3D character model.
+
 **Projects Section:** Features animated project cards using framer motion.
+
 **3D Skills Section:** Showcases 3D interactable technologies I've worked with through Three.js and React Three Fiber.
+
 **Work Section:** Utilizes a timeline and animations by framer motion.
+
 **Contact Section:** Includes 3D earth model, a contact box with email functionality powered by EmailJS, and generates an immersive star background using Three.js.
 
 ## Credits
