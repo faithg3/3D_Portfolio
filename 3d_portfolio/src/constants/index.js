@@ -38,12 +38,17 @@ import {
     opencv,
     cvproj,
     portfolio,
+    LDMS,
   } from "../assets";
   
   export const navLinks = [
     {
       id: "about",
       title: "About",
+    },
+    {
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "work",
@@ -53,6 +58,7 @@ import {
       id: "contact",
       title: "Contact",
     },
+
   ];
   
   const services = [
@@ -65,13 +71,14 @@ import {
       icon: mobile,
     },
     {
-      title: "Consultant",
-      icon: web,
-    },
-    {
       title: "Team Lead",
       icon: creator,
     },
+    {
+      title: "Consultant",
+      icon: web,
+    },
+
   ];
   
   const technologies = [
@@ -152,26 +159,26 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      name: "Jane Doe",
+      designation: "CEO",
+      company: "Company Name",
       image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      name: "John Doe",
+      designation: "CEO",
+      company: "Company Name",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      name: "Jane Doe 2",
+      designation: "CEO",
+      company: "Company Name",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
@@ -181,7 +188,7 @@ import {
       date: "SEPT 2023 - DEC 2023",
       name: "Cubical Chaos",
       description:
-        "You wake up on the top floor of a facility overrun by alien-like creatures and must get to the ground floor to escape. Can you do what it takes to survive? A single player room-based rouguelike shooter.",
+        "You wake up on the top floor of a facility overrun by alien-like creatures and must get to the ground floor to escape. Can you do what it takes to survive? A single player room-based roguelike shooter.",
       tags: [
         {
           name: "godot",
@@ -213,43 +220,69 @@ import {
         },
       ],
       image: cubicalchaos,
-      source_code_link: "https://github.com/Rallas/4392-001TeamC/tree/main/4392_TeamC_Prototype/Scenes",
+      source_code_link: "https://github.com/Rallas/4392-001TeamC",
     },
+    // {
+    //   date: "MAY 2023 - AUG 2023",
+    //   name: "4 Computer Vision Mini Projects",
+    //   description:
+    //     "A primitive paint application, a coin identifier & counter, a box identifier & dimension calculator, and a template matching program.", 
+    //   tags: [
+    //     {
+    //       name: "opencv",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "cpp",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "ubuntu",
+    //       color: "pink-text-gradient",
+    //     },
+    //     {
+    //       name: "PCL",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "3D",
+    //       color: "green-text-gradient",
+    //     },
+    //   ],
+    //   image: cvproj,
+    //   source_code_link: "https://github.com/faithg3/ComputerVisionProjects",
+    // },
     {
-      date: "MAY 2023 - AUG 2023",
-      name: "4 Computer Vision Mini Projects",
+      date: "FEB 2023 - MAY 2023",
+      name: "Library Database Management System",
       description:
-        "A primitive paint application, a coin identifier & counter, a box identifier & dimension calculator, and a template matching gem finder in a video game video.", 
+        "A user-friendly GUI interface that simplifies the process of managing library resources, providing a powerful and efficient tool for librarians and library users alike.",
       tags: [
         {
-          name: "opencv",
+          name: "python",
           color: "blue-text-gradient",
         },
         {
-          name: "cpp",
+          name: "SQLite",
           color: "green-text-gradient",
         },
         {
-          name: "ubuntu",
+          name: "tkinter",
           color: "pink-text-gradient",
         },
         {
-          name: "PCL",
+          name: "GUI",
           color: "blue-text-gradient",
         },
-        {
-          name: "3D",
-          color: "green-text-gradient",
-        },
       ],
-      image: cvproj,
-      source_code_link: "https://github.com/faithg3/ComputerVisionProjects",
+      image: LDMS,
+      source_code_link: "https://github.com/faithg3/DataBasesProject2",
     },
     {
       date: "SEPT 2022 - MAY 2023",
       name: "Disaster Survey Drone System",
       description:
-        "A system that utilizes drone, photogrammetry, cloud, and virtual reality technology, allowing State Farm agents to remotely and autonomously assess and process insurance claims in disaster scenarios. Sponsored by State Farm.",
+        "A system that utilizes drone, photogrammetry, cloud, and VR technology, allowing State Farm agents to remotely assess and process insurance claims in disaster scenarios.",
       tags: [
         {
           name: "UE5",

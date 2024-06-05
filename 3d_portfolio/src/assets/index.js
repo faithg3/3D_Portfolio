@@ -44,6 +44,7 @@ import sumerhouse from "./sumerhouse.png";
 import whatsnext from "./whatsnextapp.png";
 import cvproj from "./cvproj.png";
 import portfolio from "./portfolio.png";
+import LDMS from "./LDMS.png";
 
 export {
   logo,
@@ -89,4 +90,5 @@ export {
   opencv,
   cvproj,
   portfolio,
+  LDMS,
 };

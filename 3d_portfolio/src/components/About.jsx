@@ -47,7 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        As a recent graduate from The University of Texas at Arlington, I bring a blend of academic excellence and hands-on-experience to the table. I’m a quick learner and proficient with a wide range of technologies and development tools. I’ve also led teams and collaborated closely with peers to bring projects to fruition. Motivated by a passion to develop ideas into reality while making impactful solutions, I’m eager to apply my knowledge and expertise to tackle new challenges.
+        As a recent graduate from The University of Texas at Arlington, I bring a blend of academic excellence and hands-on-experience to the table. I’m a quick learner and proficient with a wide range of technologies and development tools. I’ve also led teams and collaborated closely with peers to bring projects to fruition. Motivated by a passion to develop ideas into reality, I’m eager to apply my knowledge and expertise to tackle new challenges.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
