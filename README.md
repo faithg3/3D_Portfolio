@@ -1,7 +1,7 @@
 # 3D Portfolio Website
 
 ## Description
-This repository hosts the source code for my personal website where I showcase my portfolio, work experience, and insights. Using a blend of creativity and adaptability, this website embodies my passion for design, development, and immersive experiences. Explore my portfolio, which features engaging animations and 3D elements [here](https://faithgutierrez.com/).
+This repository hosts the source code for my personal website where I showcase my portfolio, work experience, and insights. Using a blend of creativity and adaptability, this website embodies my passion for design, development, and immersive experiences. Explore my portfolio, which features engaging animations and 3D elements [here] afwe(https://faithgutierrez.com/).
 
 ## Tech Stack
 * React.js
