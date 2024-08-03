@@ -47,12 +47,12 @@ import {
       title: "About",
     },
     {
-      id: "projects",
-      title: "Projects",
-    },
-    {
       id: "work",
       title: "Work",
+    },
+    {
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -63,19 +63,19 @@ import {
   
   const services = [
     {
-      title: "Backend Developer",
+      title: "Full Stack Developer",
       icon: backend,
     },
     {
-      title: "Game Developer",
+      title: "Project Manager",
       icon: mobile,
     },
     {
-      title: "Team Lead",
+      title: "UAV Software Specialist",
       icon: creator,
     },
     {
-      title: "Consultant",
+      title: "Game Developer",
       icon: web,
     },
 
@@ -130,15 +130,16 @@ import {
   
   const experiences = [
     {
-      title: "Security System Consultant",
-      company_name: "Walter 'The Wizard' Radford",
+      title: "Project Management & Platform Control Software Specialist Intern",
+      company_name: "MEDNA Scientific",
       icon: web,
       iconBg: "#E6DEDD",
-      date: "Feb 2024 - Mar 2024",
+      date: "May 2024 - Present",
       points: [
-        "Utilized problem-solving skills to identify a system compatible with existing equipment within the client's budget.",
-        "Installed the system, including hardware setup and software setup for remote monitoring on the client's devices.",
-        "Provided training to the client on using and managing the system effectively including a custom-made manual.",
+        "Collaborated with a team to develop a security system with computer vision capabilities and a deployable AGV.",
+        "Integrated the software for the platform controller and companion computer with the rest of the system using Flask, ROS, and DroneKit.",
+        "Developed an API to manage and perform AGV actions such as waypoint missions, status monitoring, and state updates.",
+        "Managed project timelines, created and tracked tasks, and led weekly meetings using MEDNA’s project management software",
       ],
     },
     {

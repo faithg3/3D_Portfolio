@@ -33,7 +33,7 @@ const Feedbacks = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='flex justify-center mt-4 text-secondary text-[17px]'
         >
-          <a href="https://drive.google.com/file/d/1rQvuDG6zu9UA6ktyXczD1TCW5ltYSCy9/view?usp=sharing"
+          <a href="https://drive.google.com/file/d/1nZ0EJeFNYqbrKwQ9xHcjtgKZrLrZFv6j/view?usp=sharing"
           >
             <button className='bg-tertiary py-4 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'>
               Google Drive Download Link
